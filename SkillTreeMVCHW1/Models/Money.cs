@@ -29,7 +29,7 @@ namespace SkillTreeMVCHW1.Models
         }
 
         [Display(Name = "金額")]
-        public int money { get; set; }
+        public decimal money { get; set; }
         public string moneyShow
         {
             get
